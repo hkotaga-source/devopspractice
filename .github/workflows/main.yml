@@ -17,3 +17,6 @@ jobs:
 
       - name: Show files
         run: ls
+
+- name: Build Docker image
+        run: docker build -t mous .
